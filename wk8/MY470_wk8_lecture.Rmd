@@ -39,9 +39,16 @@ R is a versatile, open source programming/scripting language that's useful both 
 
 [S]: https://en.wikipedia.org/wiki/S_(programming_language)
 [GPL]: https://www.gnu.org/licenses/gpl.html
+```{r}
+# installing/loading the latest installr package:
+install.packages("installr"); library(installr) # install+load installr
+ 
+updateR() # updating R.
+```
 
 
 ## How to run `R`
+
 
 You can run `R` interactively or in batch mode.
 
@@ -154,7 +161,8 @@ print(my_object)
 
 ```{r}
 my_other_object <- 4
-print(my_object - my_other_object)
+#print(my_object - my_other_object)
+my_object - my_other_object
 ```
 
 ## Viewing objects in your global environment and how to clean them up
